@@ -1,0 +1,48 @@
+.u-original-price {
+  font-size: 22upx;
+  color: #999999;
+  text-decoration:line-through;
+}
+.u-price {
+  font-size: 26upx;
+}
+.u-goods {
+  width: 260upx;
+  margin-right: 5upx;
+  padding: 0 20upx 10upx 20upx;
+  background-color: #ffffff;
+}
+.u-cover {
+  width: 220upx;
+  height: 220upx;
+}
+.u-goods-name {
+  font-size: 25upx;
+  color: #353535;
+  margin-top: 10upx;
+}
+.u-margin {
+  margin-top: 5upx;
+}
+.u-cover-box {
+  position: relative;
+  margin-top: 20upx;
+  width: 220upx;
+  height: 220upx;
+}
+.u-out-dialog {
+  width: 220upx;
+  height: 220upx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(0,0,0,.5);
+}
+.u-pic {
+  width: 220upx;
+  height: 220upx;
+}
+.u-price-box {
+  vertical-align:middle;
+}

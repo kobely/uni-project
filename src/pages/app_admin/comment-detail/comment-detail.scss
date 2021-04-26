@@ -1,0 +1,161 @@
+.comment-detail {
+  width: #{750rpx};
+  background-color: #f7f7f7;
+  padding: #{24rpx};
+  box-sizing: border-box;
+  .top-text {
+    height: #{36rpx};
+    margin: #{4rpx} 0 #{20rpx} 0;
+    .prompt {
+      font-size: #{28rpx};
+      color: #999999;
+    }
+    .show {
+      margin-left: #{16rpx};
+      width: #{88rpx};
+      height: #{36rpx};
+      line-height: #{36rpx};
+      border-radius: #{18rpx};
+      background-color: #ff9000;
+      font-size: #{22rpx};
+      color: #ffffff;
+      text-align: center;
+    }
+  }
+  .content {
+    border-radius: #{26rpx};
+    background-color: white;
+    width: #{750-48rpx};
+    padding-bottom: #{24rpx};
+    box-sizing: border-box;
+    margin-bottom: #{40rpx};
+    .top {
+      width: #{654rpx};
+      height: #{192rpx};
+      padding: #{24rpx} 0;
+      box-sizing: border-box;
+      margin: 0 #{24rpx};
+      border-bottom: #{1rpx} solid #e2e2e2;
+      >image {
+        width: #{144rpx};
+        height: #{144rpx};
+        border-radius: #{8rpx};
+      }
+
+      >view {
+        width: #{490rpx};
+        margin-left: #{20rpx};
+        height: #{144rpx};
+        .name-text {
+          width: #{368rpx};
+          height: #{144rpx};
+          >view.text {
+            font-size: #{26rpx};
+            color: #353535;
+            width: #{368rpx};
+            height: #{55rpx};
+            line-height: #{28rpx};
+            word-break: break-all;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+          }
+          .attr {
+            margin-top: #{24rpx};
+            width: #{368rpx};
+            font-size: #{24rpx};
+            color: #999999;
+            word-break: break-all;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            overflow: hidden;
+          }
+        }
+        .name-icon {
+          width: #{96rpx};
+          height: #{144rpx};
+          .icon {
+            width: #{48rpx};
+            height: #{48rpx};
+          }
+          .evaluation {
+            text-align: center;
+            width: #{48rpx};
+            color: #353535;
+            font-size: #{22rpx};
+            margin-top: #{16rpx};
+          }
+        }
+      }
+    }
+    .bottom {
+      padding-top: #{32rpx};
+      box-sizing: border-box;
+      width: #{666rpx};
+      margin-left: #{24rpx};
+      margin-right: #{12rpx};
+      .bottom-text {
+        width: #{666rpx};
+        font-size: #{28rpx};
+        color: #353535;
+        margin-right: #{24rpx};
+        margin-bottom: #{12rpx};
+      }
+      .bottom-image {
+        width: #{666rpx};
+
+        >image {
+          border-radius: #{8rpx};
+          width: #{210rpx};
+          height: #{210rpx};
+          margin-top: #{12rpx};
+          margin-right: #{12rpx};
+        }
+
+      }
+    }
+  }
+  .seller {
+    margin-bottom: #{24rpx};
+    color: #999999;
+    font-size: #{28rpx};
+  }
+  .area {
+    width: #{702rpx};
+    height: #{328rpx};
+    background-color: white;
+    padding-top: #{1rpx};
+    box-sizing: border-box;
+    border-radius: #{25rpx};
+    >textarea {
+      width: #{654rpx};
+      height: #{281rpx};
+      margin: #{24rpx};
+      border-radius: #{25rpx};
+      background-color: #f7f7f7;
+      color: #353535;
+      font-size: #{28rpx};
+      padding: #{24rpx};
+      box-sizing: border-box;
+    }
+    .place {
+      font-size: #{28rpx};
+      color: #cdcdcd;
+    }
+  }
+  .button {
+    margin-top: #{80rpx};
+    width: #{702rpx};
+    height: #{80rpx};
+    line-height: #{80rpx};
+    border-radius: #{40rpx};
+    background-color: #446dfd;
+    font-size: #{28rpx};
+    color: #ffffff;
+    text-align: center;
+  }
+}

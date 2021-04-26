@@ -1,0 +1,215 @@
+// deep 主色
+// light 浅色
+
+/* 流光金 */
+$streamer-gold-deep: #dfa245;
+$streamer-gold-light: #f0c482;
+
+/* 浪漫粉 */
+$romantic-powder-deep: #ff547b;
+$romantic-powder-light: #ff96ae;
+
+/* 品味红 */
+$taste-red-deep: #ff4544;
+$taste-red-light: #ff8888;
+
+/* 优雅紫 */
+$elegant-purple-deep: #7783ea;
+$elegant-purple-light: #a1aaf6;
+
+/* 清醒绿 */
+$fresh-green-deep: #63be72;
+$fresh-green-light: #89db96;
+
+/* 商务蓝 */
+$business-blue-deep: #4a90e2;
+$business-blue-light: #82b4ef;
+
+// 主题色
+
+/* 流光金 */
+.streamer-gold-gift-color {
+  color: $streamer-gold-deep;
+}
+.streamer-gold-gift-background {
+  background-color: $streamer-gold-deep;
+}
+.streamer-gold-gift-background-q {
+  background: rgba(223, 162, 69, 0.8);
+}
+.streamer-gold-gift-background-p {
+  background: rgba(223, 162, 69, 0.2);
+}
+.streamer-gold-gift-background-o {
+  background: rgba(223, 162, 69, 0.1);
+}
+.streamer-gold-gift-border {
+  border-color: $streamer-gold-deep;
+}
+.streamer-gold-gift-figure-rule {
+  background: linear-gradient(to bottom, $streamer-gold-deep, $streamer-gold-light);
+}
+.streamer-gold-gift-border-bottom {
+  border-bottom-color: $streamer-gold-deep;
+}
+.streamer-gold-gift-shadow {
+  box-shadow: #{0 10upx 30upx 2.5upx} rgba(223,162,69, 0.2);
+}
+.streamer-gold-gift-btn {
+  background: linear-gradient(to left, rgba(223, 162, 69, 1), rgba(223, 162, 69, 0.7));
+}
+/* 浪漫粉 */
+.romantic-powder-gift-color {
+  color: $romantic-powder-deep;
+}
+.romantic-powder-gift-background {
+  background-color: $romantic-powder-deep;
+}
+.romantic-powder-gift-background-q {
+  background: rgba(255, 84, 123, 0.8);
+}
+.romantic-powder-gift-background-p {
+  background: rgba(255, 84, 123, 0.2);
+}
+.romantic-powder-gift-background-o {
+  background: rgba(255, 84, 123, 0.1);
+}
+.romantic-powder-gift-border {
+  border-color: $romantic-powder-deep;
+}
+.romantic-powder-gift-figure-rule {
+  background: linear-gradient(to bottom, $romantic-powder-deep, $romantic-powder-light);
+}
+.romantic-powder-gift-border-bottom {
+  border-bottom-color: $romantic-powder-deep;
+}
+.romantic-powder-gift-shadow {
+  box-shadow: #{0 10upx 30upx 2.5upx} rgba(255,84,23, 0.2);
+}
+.romantic-powder-gift-btn {
+  background: linear-gradient(to left, rgba(255, 84, 123, 1), rgba(255, 84, 123, 0.7));
+}
+/* 品味红 */
+.taste-red-gift-color {
+  color: $taste-red-deep;
+}
+.taste-red-gift-background {
+  background-color: $taste-red-deep;
+}
+.taste-red-gift-background-q {
+  background: rgba(255, 69, 68, 0.8);
+}
+.taste-red-gift-background-p {
+  background: rgba(255, 69, 68, 0.2);
+}
+.taste-red-gift-background-0 {
+  background: rgba(255, 69, 68, 0.1);
+}
+.taste-red-gift-border {
+  border-color: $taste-red-deep;
+}
+.taste-red-gift-figure-rule {
+  background: linear-gradient(to bottom, $taste-red-deep, $taste-red-light);
+}
+.taste-red-gift-border-bottom {
+  border-bottom-color: $taste-red-deep;
+}
+.taste-red-gift-shadow {
+  box-shadow: #{0 10upx 30upx 2.5upx} rgba(255,69,68, 0.2);
+}
+.taste-red-gift-btn {
+  background: linear-gradient(to left, rgba(255, 69, 68, 1), rgba(255, 69, 68, 0.7));
+}
+/* 优雅紫 */
+.elegant-purple-gift-color {
+  color: $elegant-purple-deep;
+}
+.elegant-purple-gift-background {
+  background-color: $elegant-purple-deep;
+}
+.elegant-purple-gift-background-q {
+  background: rgba(119, 131, 234, 0.8);
+}
+.elegant-purple-gift-background-p {
+  background: rgba(119, 131, 234, 0.2);
+}
+.elegant-purple-gift-background-o {
+  background: rgba(119, 131, 234, 0.1);
+}
+.elegant-purple-gift-border {
+  border-color: $elegant-purple-deep;
+}
+.elegant-purple-gift-figure-rule {
+  background: linear-gradient(to bottom, $elegant-purple-deep, $elegant-purple-light);
+}
+.elegant-purple-gift-border-bottom {
+  border-bottom-color: $elegant-purple-deep;
+}
+.elegant-purple-gift-shadow {
+  box-shadow: #{0 10upx 30upx 2.5upx} rgba(119,131,234, 0.2);
+}
+.elegant-purple-gift-btn {
+  background: linear-gradient(to left, rgba(119, 131, 234, 1), rgba(119, 131, 234, 0.7));
+}
+/* 清醒绿 */
+.fresh-green-gift-color {
+  color: $fresh-green-deep;
+}
+.fresh-green-gift-background {
+  background-color: $fresh-green-deep;
+}
+.fresh-green-gift-background-q {
+  background: rgba(99, 190, 114, 0.8);
+}
+.fresh-green-gift-background-p {
+  background: rgba(99, 190, 114, 0.2);
+}
+.fresh-green-gift-background-o {
+  background: rgba(99, 190, 114, 0.1);
+}
+.fresh-green-gift-border {
+  border-color: $fresh-green-deep;
+}
+.fresh-green-gift-figure-rule {
+  background: linear-gradient(to bottom, $fresh-green-deep, $fresh-green-light);
+}
+.fresh-green-gift-border-bottom {
+  border-bottom-color: $fresh-green-deep;
+}
+.fresh-green-gift-shadow {
+  box-shadow: #{0 10upx 30upx 2.5upx} rgba(99,190,114, 0.2);
+}
+.fresh-green-gift-btn {
+  background: linear-gradient(to left, rgba(99, 190, 114, 1), rgba(99, 190, 114, 0.7));
+}
+/* 商务蓝 */
+.business-blue-gift-color {
+  color: $business-blue-deep;
+}
+.business-blue-gift-background {
+  background-color: $business-blue-deep;
+}
+.business-blue-gift-background-q {
+  background: rgba(74, 144, 226, 0.8);
+}
+.business-blue-gift-background-p {
+  background: rgba(74, 144, 226, 0.2);
+}
+.business-blue-gift-background-o {
+  background: rgba(74, 144, 226, 0.1);
+}
+.business-blue-gift-border {
+  border-color: $business-blue-deep;
+}
+.business-blue-gift-figure-rule {
+  background: linear-gradient(to bottom, $business-blue-deep, $business-blue-light);
+}
+.business-blue-gift-border-bottom {
+  border-bottom-color: $business-blue-deep;
+}
+.business-blue-gift-shadow {
+  box-shadow: #{0 10upx 30upx 2.5upx} rgba(74,144,226, 0.2);
+}
+.business-blue-gift-btn {
+  background: linear-gradient(to left, rgba(74, 144, 226, 1), rgba(74, 144, 226, 0.7));
+}

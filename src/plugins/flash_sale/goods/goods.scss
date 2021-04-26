@@ -1,0 +1,175 @@
+.vip-card {
+  padding: 0 #{20rpx} #{20rpx};
+  background-color: #fff;
+}
+
+.merchant-guarantee {
+  margin-top: #{20rpx};
+}
+
+.app-goods {
+  background-color: #f7f7f7;
+}
+
+.attr {
+  margin: #{20rpx} 0;
+}
+
+.marketing {
+  margin-top: #{20rpx};
+}
+
+.buttons {
+  width: #{750rpx};
+  height: #{110rpx};
+
+  .app-home {
+    width: 14%;
+    height: #{110rpx};
+    background-color: white;
+
+    .app-view {
+      width: #{105rpx};
+      height: #{110rpx};
+
+      image {
+        width: #{40rpx};
+        height: #{40rpx};
+      }
+
+      text {
+        font-size: #{18rpx};
+        color: #707070;
+
+      }
+    }
+  }
+
+  .app-button {
+    width: 86%;
+    height: #{110rpx};
+    text-align: center;
+    line-height: #{110rpx};
+
+    .app-join-cart {
+      height: #{110rpx};
+    }
+
+    .app-buy {
+      height: #{110rpx};
+      color: white;
+    }
+
+    .notStart {
+      width: 100%;
+      height: #{110rpx};
+      color: #FFF;
+      >view {
+        width: 50%;
+      }
+    }
+
+    .app-over {
+      height: #{110rpx};
+      background: #666;
+      color: #FFF;
+    }
+  }
+}
+
+.product-list {
+  background-color: white;
+}
+
+.join-member {
+  background-color: #fff;
+  padding: 0 #{24rpx};
+}
+
+.app-bottom {
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.text {
+  color: #fff;
+}
+
+.goods-name {
+  padding: #{24rpx 24rpx 0 24rpx};
+  background-color: #fff;
+  color: #353535;
+}
+.goods-subtitle {
+  padding: #{24rpx 24rpx 0 24rpx};
+  font-size: 24rpx;
+  background-color: #ffffff;
+  color: #999999;
+}
+.price-title-share {
+  padding-top: #{24rpx};
+  background-color: #fff;
+}
+.f-timing {
+  width: 750upx;
+  height: 88upx;
+  position: relative;
+  .f-image {
+    width: 750upx;
+    height: 88upx;
+    background-image: url('../image/timing.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .f-activity {
+    height: 37upx;
+    border-radius: 19upx;
+    background-color: #fff;
+    padding: 0upx 17upx;
+    line-height: 37upx;
+    font-size: 24upx;
+    position: absolute;
+    left: 215upx;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .f-content {
+    position: absolute;
+    right: #{20rpx};
+    top: 0;
+    height: #{88rpx};
+    .app-text {
+      font-size: #{22rpx};
+      color: #fff;
+      text-align: center;
+      margin-top: #{6rpx};
+    }
+    .over-text {
+      font-size: #{32rpx};
+      line-height: #{88rpx};
+      margin-top: 0;
+    }
+    .app-time {
+      color: white;
+      height: #{36rpx};
+      font-size: #{26rpx};
+      margin-top: #{6rpx};
+      .app-num {
+        display: inline-block;
+        width: #{44rpx};
+        height: #{36rpx};
+        line-height: #{36rpx};
+        background-color:white;
+        border-radius: #{8rpx};
+        color: #353535;
+        text-align: center;
+      }
+      .app-right {
+        margin: 0 #{4rpx};
+      }
+    }
+  }
+}

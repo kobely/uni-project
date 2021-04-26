@@ -1,0 +1,326 @@
+.review-message {
+  width: #{750rpx};
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  padding-top: #{1rpx};
+
+  .bar {
+    width: #{750rpx};
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    left: 0;
+    height: #{100rpx};
+    border-bottom: #{1rpx} solid #e2e2e2;
+    background-color: white;
+    .scroll-view {
+      white-space: nowrap;
+      height: #{100rpx};
+    }
+    .bar-item {
+      min-width: #{210rpx};
+      height: #{100rpx};
+      text-align: center;
+      display: inline-block;
+      .bar-item-tips {
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        margin-left: #{8rpx};
+        margin-top: #{-19rpx};
+        height: #{19rpx};
+        line-height: #{19rpx};
+        font-size: #{12rpx};
+        color: #fff;
+        padding: 0 #{6rpx};
+        border-top-left-radius: #{10rpx};
+        border-bottom-right-radius: #{10rpx};
+        background-image: linear-gradient(to right, #335aff,#2076e7);
+      }
+      .bar-item-text {
+        display: inline-block;
+        height: #{98rpx};
+        font-size: #{28rpx};
+        color: #666666;
+        line-height: #{98rpx};
+        border-bottom: #{2rpx} solid transparent;
+        position: relative;
+        width: auto;
+      }
+      .text-active {
+        color: #446dfd;
+        border-bottom: #{2rpx} solid #446dfd;
+      }
+    }
+  }
+  .search {
+    width: #{750rpx};
+    height: #{88rpx};
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #efeff4;
+    padding: #{15rpx} #{24rpx};
+    box-sizing: border-box;
+    input {
+      box-sizing: border-box;
+      padding: #{0 70rpx 0 30rpx};
+      font-size: #{26rpx};
+    }
+    .search-clear {
+      position: absolute;
+      right: #{15rpx};
+      top: #{14rpx};
+      width: #{30rpx};
+      height: #{30rpx};
+      z-index: 100;
+    }
+    .search-view {
+      width: #{750-48rpx};
+      height: #{88-30rpx};
+      background-color: white;
+      border-radius: #{22rpx};
+      .image {
+        width: #{20rpx};
+        height: #{20rpx};
+        margin-right: #{11rpx};
+      }
+      .text {
+        font-size: #{26rpx};
+        color: #999999;
+      }
+    }
+  }
+  .search-top {
+    top: #{100rpx};
+  }
+  .content.content-top {
+    margin-top: #{188upx};
+  }
+  .content {
+    width: #{750rpx};
+    box-sizing: border-box;
+    padding: #{1rpx} #{24rpx};
+    margin-top: #{88upx};
+    .content-item {
+      width: #{702rpx};
+      border-radius: #{16rpx};
+      background-color: white;
+      margin-top: #{24rpx};
+      padding: #{24rpx};
+      box-sizing: border-box;
+      .content-content {
+        width: #{702-48rpx};
+        min-height: #{100rpx};
+        .content-image {
+          width: #{100rpx};
+          height: #{100rpx};
+          border-radius: #{4rpx};
+          margin-right: #{24rpx};
+        }
+        .content-name {
+          min-height: #{100rpx};
+          .name {
+            font-size: #{32rpx};
+            color: #353535;
+            margin-top: #{8rpx};
+          }
+          .referrer {
+            font-size: #{28rpx};
+            color: #999999;
+            margin-top: #{4rpx};
+          }
+        }
+      }
+      .content-buttons {
+        width: #{702-48rpx};
+        height: #{60rpx};
+        >view {
+          height: #{60rpx};
+          line-height: #{60rpx};
+          box-sizing: border-box;
+          padding:0 #{32rpx};
+          font-size: #{28rpx};
+          border-radius: #{30rpx};
+          border-width: #{1rpx};
+          border-style: solid;
+        }
+        .refuse {
+          border-color: #bbbbbb;
+          color: #353535;
+          margin-right: #{12rpx};
+        }
+        .by {
+          border-color: #446dfd;
+          color: #446dfd;
+        }
+      }
+    }
+    .check-content {
+      width: #{750-48rpx};
+      height: #{100+48rpx};
+      border-radius: #{16rpx};
+      background-color: white;
+      box-sizing: border-box;
+      padding: #{24rpx};
+      margin-top: #{24rpx};
+      .check-nei {
+        width: #{750-48-48rpx};
+        height: #{100rpx};
+        .check-avatar {
+          width: #{100rpx};
+          height: #{100rpx};
+          border-radius: #{4rpx};
+          margin-right: #{24rpx};
+        }
+        .check-content-content {
+          width: #{750-48-48-100-12rpx};
+          height: #{100rpx};
+          .name {
+            font-size: #{32rpx};
+            color: #353535;
+            margin-top: #{6rpx};
+          }
+          .shop {
+            margin-top: #{6rpx};
+            font-size: #{28rpx};
+            color: #999999;
+          }
+        }
+        .icon {
+          width: #{12rpx};
+          height: #{22rpx};
+        }
+      }
+
+
+    }
+  }
+  .no-tip {
+    position: fixed;
+    top: #{250rpx};
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #666666;
+    font-size: #{24rpx};
+    width: #{240rpx};
+    text-align: center;
+    >image {
+      height: #{240rpx};
+      width: #{240rpx};
+      margin-bottom: #{20rpx};
+    }
+  }
+  .model {
+    position: fixed;
+    z-index: 1600;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.3);
+    .top {
+      margin-top: #{40rpx};
+      margin-bottom: #{32rpx};
+      color: #353535;
+      font-size: #{32rpx};
+      text-align: center;
+    }
+    .content {
+      width: calc(100% - #{64rpx});
+      margin: 0 #{32rpx};
+    }
+    .buttons {
+      width: 100%;
+      border-top: #{1rpx} solid #e2e2e2;
+      margin-top: #{32rpx};
+      .but {
+        width: calc(50% - #{1rpx});
+        height: #{88rpx};
+        line-height: #{88rpx};
+        font-size: #{32rpx};
+        text-align: center;
+      }
+      .line {
+        width: #{2rpx};
+        height: #{32rpx};
+        background-color: #e2e2e2;
+      }
+      .cancel {
+        color: #666666;
+      }
+      .confirm {
+        color: #446dfd;
+      }
+    }
+    .form {
+      width: #{620rpx};
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: #{16rpx};
+      background-color: white;
+      .form-content {
+        max-height: 600rpx;
+        overflow: auto;
+      }
+      .price-item {
+          margin-bottom: #{10rpx};
+          font-size: #{26rpx};
+          color: #353535;
+          padding: 0 #{24rpx};
+          .price-label {
+              flex-shrink: 0;
+              color: #999;
+              font-size: #{26rpx};
+              margin-bottom: #{10rpx};
+          }
+          .form-img {
+              height: #{120rpx};
+              width: #{120rpx};
+              margin-right: #{10rpx};
+              margin-top: #{10rpx};
+          }
+      }
+    }
+    .refuse {
+      width: #{620rpx};
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: #{16rpx};
+      background-color: white;
+      .content {
+        border-radius: #{16rpx};
+        border: #{1rpx} solid #e2e2e2;
+        height: #{300rpx};
+        box-sizing: border-box;
+        padding: #{24rpx} #{32rpx};
+      }
+      .textarea {
+        width: #{620-64-64rpx};
+        height: #{300-48rpx};
+        font-size: #{28rpx};
+        color: #80848f;
+      }
+    }
+    .by {
+      width: #{620rpx};
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: #{16rpx};
+      background-color: white;
+      .content {
+        font-size: #{32rpx};
+        color: #353535;
+        text-align: center;
+      }
+    }
+  }
+}

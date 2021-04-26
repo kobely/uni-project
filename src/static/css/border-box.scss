@@ -1,0 +1,22 @@
+// #ifndef MP-TOUTIAO
+page, block, view, scroll-view, swiper, movable-view, icon, text, progress,
+button, checkbox, form, input, label, picker, picker-view, radio, slider, switch,
+textarea, navigator, audio, image, video, map, canvas, contact-button, cover-image, cover-view{
+  box-sizing: border-box;
+}
+// #endif
+
+// #ifdef MP-TOUTIAO
+* {
+  box-sizing: border-box;
+}
+// #endif
+
+// #ifdef H5
+uni-modal {
+    z-index: 3000;
+}
+uni-modal > .uni-modal {
+    z-index: 3001;
+}
+// #endif
